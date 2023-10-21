@@ -4,15 +4,15 @@ public class Person
 {
     private String name;
     private double balance;
-    private boolean isMale;
+    private String gender;
     private String paymentType;
     private Account account;
 
-    public Person(String name, double balance, boolean isMale, String paymentType)
+    public Person(String name, double balance, String gender, String paymentType)
     {
         this.name = name;
         this.balance = balance;
-        this.isMale = isMale;
+        this.gender = gender;
         this.paymentType = paymentType;
         new Account(paymentType);
     }
@@ -24,13 +24,6 @@ public class Person
         this.paymentType = paymentType;
     }
 
-    public boolean isMale() {
-        return isMale;
-    }
-
-    public void setMale(boolean male) {
-        isMale = male;
-    }
 
     public double getBalance() {
         return balance;
@@ -46,5 +39,13 @@ public class Person
 
     public void setName(String name) {
         this.name = name;
+    }
+
+    public String getGender() {
+        return gender;
+    }
+
+    public void setGender(String gender) {
+        this.gender = gender;
     }
 }
