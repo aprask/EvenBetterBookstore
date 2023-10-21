@@ -1,7 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="9778a366-a128-4427-9ac0-ae621b63e456" name="Changes" comment="" />
+    <list default="true" id="9778a366-a128-4427-9ac0-ae621b63e456" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Inventory/Inventory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Inventory/Inventory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Inventory/Item/Factory/Factory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Inventory/Item/Factory/Factory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Inventory/Item/Factory/StoreItems.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Inventory/Item/Factory/StoreItems.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Store/Bookstore.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Store/Bookstore.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Store/Customer/Party.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Store/Customer/Party.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/User/Admin/Admin.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/User/Admin/Admin.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -16,12 +27,18 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/skalg/OneDrive/Desktop/Projects/Java/ImprovedBookStore/EvenBetterBookstore/src&quot;
   }
-}]]></component>
+}</component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\skalg\OneDrive\Desktop\Projects\Java\ImprovedBookStore\EvenBetterBookstore\src" />
+    </key>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -32,5 +49,41 @@
       <updated>1697807685472</updated>
     </task>
     <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="OPEN_GENERIC_TABS">
+      <map>
+        <entry key="c30d22bd-8049-43a1-a231-982f30aa7b5b" value="TOOL_WINDOW" />
+      </map>
+    </option>
+    <option name="TAB_STATES">
+      <map>
+        <entry key="c30d22bd-8049-43a1-a231-982f30aa7b5b">
+          <value>
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="HEAD" />
+                      </list>
+                    </value>
+                  </entry>
+                  <entry key="structure">
+                    <value>
+                      <list>
+                        <option value="dir:C:/Users/skalg/OneDrive/Desktop/Projects/Java/ImprovedBookStore/EvenBetterBookstore/src/Inventory" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+              <option name="SHOW_ONLY_AFFECTED_CHANGES" value="true" />
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
 </project>

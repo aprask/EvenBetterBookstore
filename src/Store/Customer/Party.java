@@ -1,43 +1,32 @@
 package Store.Customer;
 
-import java.util.ArrayList;
+import java.util.HashMap;
 
 public class Party
 {
-    private String name;
-    private int partyID = 0;
-    private final ArrayList<Customer> partyMembers = new ArrayList<>();
-    public Party(String name)
+    private static int placeInLine;
+    private Customer customer;
+    private final HashMap<Integer, Customer> customerInfo = new HashMap<Integer, Customer>();
+    public Party()
     {
-        this.name = name;
-        this.partyID++;
-    }
-    public void addMember(Customer customer)
-    {
-        this.partyMembers.add(customer);
-    }
-    public void removeMember(int customerID)
-    {
-        this.partyMembers.remove(customerID); // customerID === index
-    }
-    public double getPartyBalance()
-    {
-        int total = 0;
-        for (Customer partyMember : this.partyMembers) {
-            total += partyMember.getBalance();
-        }
-        return total;
+
     }
 
-    public int getPartyID() {
-        return partyID;
+    public void registerCustomer(Customer customer)
+    {
+        this.customerInfo.put(placeInLine, customer);
+        placeInLine++;
     }
-
-    public String getName() {
-        return name;
+    public void removeCustomer(int placeID)
+    {
+        this.customerInfo.remove(placeID);
     }
-
-    public void setName(String name) {
-        this.name = name;
+    public int getSizeOfLine()
+    {
+        return this.customerInfo.size();
+    }
+    public boolean stillInLine(Customer customer)
+    {
+        return this.customerInfo.containsValue(customer);
     }
 }

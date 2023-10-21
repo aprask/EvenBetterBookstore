@@ -30,6 +30,7 @@ public class Inventory
         if(checkID == 1)
         {
             System.out.println("Item Type: CD");
+            System.out.println("-----------------------------------------------");
             for(int i = 0; i < this.getItemList().size(); i++)
             {
                 if(this.getItemList().get(i).getItemSpecies() == 1)
@@ -44,6 +45,7 @@ public class Inventory
         if(checkID == 2)
         {
             System.out.println("Item Type: Book");
+            System.out.println("-----------------------------------------------");
             for(int i = 0; i < this.getItemList().size(); i++)
             {
                 if(this.getItemList().get(i).getItemSpecies() == 2)
@@ -59,6 +61,7 @@ public class Inventory
         if(checkID == 3)
         {
             System.out.println("Item Type: DVD");
+            System.out.println("-----------------------------------------------");
             for(int i = 0; i < this.getItemList().size(); i++)
             {
                 if(this.getItemList().get(i).getItemSpecies() == 3)

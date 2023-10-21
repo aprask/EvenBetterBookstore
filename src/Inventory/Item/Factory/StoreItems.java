@@ -1,8 +1,8 @@
 package Inventory.Item.Factory;
 
+import Inventory.Inventory;
 import Inventory.Item.Item;
 import User.Command;
-import Inventory.Inventory;
 
 public class StoreItems implements Command {
     private Inventory inventory;

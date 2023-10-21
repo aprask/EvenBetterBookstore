@@ -1,5 +1,6 @@
 package User.Admin;
-import java.util.*;
+
+import java.util.Scanner;
 public class Admin {
     private final String adminPassword = "cs1213project1";
     private final Scanner scan = new Scanner(System.in);

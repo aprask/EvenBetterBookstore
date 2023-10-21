@@ -1,8 +1,8 @@
 package Inventory.Item.Factory;
 
+import Inventory.Inventory;
 import Inventory.Item.Book;
 import Inventory.Item.CD;
-import Inventory.*;
 import User.Admin.Admin;
 
 import java.util.Scanner;
