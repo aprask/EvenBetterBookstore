@@ -15,4 +15,8 @@ public class Book extends Item
     public void setPageCount(int pageCount) {
         this.pageCount = pageCount;
     }
+    @Override
+    public String comparePrices(Item item1, Item item2) {
+        return super.comparePrices(item1,item2);
+    }
 }

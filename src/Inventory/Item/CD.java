@@ -16,4 +16,8 @@ public class CD extends Item {
     }
 
 
+    @Override
+    public String comparePrices(Item item1, Item item2) {
+        return super.comparePrices(item1,item2);
+    }
 }

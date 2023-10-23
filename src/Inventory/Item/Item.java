@@ -1,6 +1,6 @@
 package Inventory.Item;
 
-public class Item {
+public abstract class Item implements Comparable {
     private String name;
     private double price;
     private boolean sold;
@@ -58,5 +58,21 @@ public class Item {
 
     public void setItemSpecies(int itemSpecies) {
         this.itemSpecies = itemSpecies;
+    }
+    @Override
+    public String comparePrices(Item item1, Item item2) {
+        if(item1.getPrice() > item2.getPrice())
+        {
+            return item1.getName() + " is more expensive than " + item2.getPrice();
+        }
+        else if(item1.getPrice() == item2.getItemSpecies())
+        {
+            return item1.getName() + " is the same price as " + item2.getPrice();
+        }
+        else if(item2.getPrice() > item1.getPrice())
+        {
+            return item2.getName() + " is more expensive than " + item1.getPrice();
+        }
+        return null;
     }
 }

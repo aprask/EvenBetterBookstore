@@ -26,16 +26,12 @@ public class Bookstore
                 break;
             }
         }
-        // loop n of times while asking for their order
-        // ask for payment method and deduct from the user's bank
-        // after each n person, ask if they would like a refund or a receipt
-        // move on to the next person
     }
     public void registerMembers(int numberOfMembers)
     {
+        int i = 1;
         while(numberOfMembers >= 0)
         {
-            int i = 1;
             System.out.println("Customer #" +  i + " Enter name: ");
             String name = scan.next();
             System.out.println("Customer #" +  i + " Enter balance: ");

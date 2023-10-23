@@ -14,4 +14,8 @@ public class DVD  extends Item{
     public void setDVDLength(double DVDLength) {
         this.DVDLength = DVDLength;
     }
+    @Override
+    public String comparePrices(Item item1, Item item2) {
+        return super.comparePrices(item1,item2);
+    }
 }
