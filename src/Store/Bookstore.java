@@ -1,13 +1,12 @@
 package Store;
-
 import Inventory.Inventory;
-import Inventory.Item.Book;
+import Inventory.Item.Item;
 import Store.Customer.Customer;
 import Store.Customer.Party;
-
 import java.util.*;
 public class Bookstore implements Register, BookStoreSpecification {
     private final Party customerLine = new Party();
+    private final Inventory inventory = new Inventory();
     private final Scanner scan = new Scanner(System.in);
     public Bookstore()
     {
@@ -43,11 +42,27 @@ public class Bookstore implements Register, BookStoreSpecification {
             numberOfMembers--;
             i++;
         }
+        orderItems();
+    }
+
+    public void orderItems()
+    {
+        int i = this.customerLine.getSizeOfLine();
+        while(i > 0)
+        {
+            System.out.println(this.customerLine.getCustomerName(i) + ", how many items are you checking out? ");
+
+            i--;
+        }
+    }
+    public void checkOut(int numberOfOrders)
+    {
+
     }
 
     @Override
     public void memberOrder(Customer customer) {
-        
+        System.out.println(customer.getName() + " ordered ");
     }
 
     @Override
@@ -61,12 +76,17 @@ public class Bookstore implements Register, BookStoreSpecification {
     }
 
     @Override
-    public void restockProduct(int productId, int amount) {
-
+    public void restockProduct(Item item) {
+        this.inventory.addItem(item);
     }
 
     @Override
     public double inventoryValue() {
-        return 0;
+        int total = 0;
+        for(int i = 0; i < inventory.getItemList().size(); i++)
+        {
+            total+=inventory.getItemList().get(i).getPrice();
+        }
+        return total;
     }
 }

@@ -10,6 +10,7 @@ public class Bank {
     private final String nameOnCard;
     private final String expDate;
     private final ArrayList<Bank> bankAccounts = new ArrayList<>();
+
     public Bank
     (
                 Account account, double accountBalance,

@@ -5,9 +5,12 @@ import java.util.HashMap;
 public class Party
 {
     private static int placeInLine;
-    private Customer customer;
     private final HashMap<Integer, Customer> customerInfo = new HashMap<Integer, Customer>();
     public Party()
+    {
+
+    }
+    public void initializeCustomerLine()
     {
 
     }
@@ -28,5 +31,9 @@ public class Party
     public boolean stillInLine(Customer customer)
     {
         return this.customerInfo.containsValue(customer);
+    }
+    public String getCustomerName(int locationID)
+    {
+        return this.customerInfo.get(locationID).getName();
     }
 }

@@ -1,7 +1,9 @@
 package Store;
 
+import Inventory.Item.Item;
+
 public interface BookStoreSpecification
 {
-    public void restockProduct(int productId, int amount);
+    public void restockProduct(Item item);
     public double inventoryValue();
 }
