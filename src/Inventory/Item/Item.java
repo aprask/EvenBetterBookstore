@@ -65,7 +65,7 @@ public abstract class Item implements Comparable {
         {
             return item1.getName() + " is more expensive than " + item2.getPrice();
         }
-        else if(item1.getPrice() == item2.getItemSpecies())
+        else if(item1.getPrice() == item2.getPrice())
         {
             return item1.getName() + " is the same price as " + item2.getPrice();
         }

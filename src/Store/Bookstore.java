@@ -1,13 +1,12 @@
 package Store;
 
 import Inventory.Inventory;
+import Inventory.Item.Book;
 import Store.Customer.Customer;
 import Store.Customer.Party;
 
 import java.util.*;
-public class Bookstore
-{
-    private Inventory inventory;
+public class Bookstore implements Register, BookStoreSpecification {
     private final Party customerLine = new Party();
     private final Scanner scan = new Scanner(System.in);
     public Bookstore()
@@ -44,5 +43,30 @@ public class Bookstore
             numberOfMembers--;
             i++;
         }
+    }
+
+    @Override
+    public void memberOrder(Customer customer) {
+        
+    }
+
+    @Override
+    public void checkOut(Customer customer) {
+
+    }
+
+    @Override
+    public void refundOrder(Customer customer) {
+
+    }
+
+    @Override
+    public void restockProduct(int productId, int amount) {
+
+    }
+
+    @Override
+    public double inventoryValue() {
+        return 0;
     }
 }
