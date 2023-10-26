@@ -4,16 +4,48 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9778a366-a128-4427-9ac0-ae621b63e456" name="Changes" comment="BookStoreSpecification.java">
-      <change afterPath="$PROJECT_DIR$/src/Store/Customer/Cart.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Store/Customer/Order.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Store/Manager/Refund.java" afterDir="false" />
+    <list default="true" id="9778a366-a128-4427-9ac0-ae621b63e456" name="Changes" comment="Cart.java">
+      <change afterPath="$PROJECT_DIR$/src/Commands/CheckOutItems.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Commands/Command.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Commands/Customer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Commands/EnterStore.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Commands/Item/Inventory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Commands/RefundItems.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Commands/Register.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Commands/Store.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Commands/User/Bank.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Commands/User/Client.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Commands/User/Order.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Commands/User/Upgrade.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/oldstore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Store/BookStoreSpecification.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Store/BookStoreSpecification.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Store/Bookstore.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Store/Bookstore.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Store/Customer/Bank.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Store/Customer/Bank.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Store/Customer/Party.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Store/Customer/Party.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Store/Manager/RefundItems.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Inventory/Inventory.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Inventory/Item/Book.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Commands/Item/Book.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Inventory/Item/CD.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Commands/Item/CD.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Inventory/Item/Comparable.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Commands/Item/Comparable.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Inventory/Item/DVD.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Commands/Item/DVD.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Inventory/Item/Factory/Factory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Commands/Item/Factory/Factory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Inventory/Item/Factory/ItemType.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Commands/Item/Factory/ItemType.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Inventory/Item/Factory/StoreItems.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Commands/Item/Factory/StoreItems.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Inventory/Item/Item.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Commands/Item/Item.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Store/BookStoreSpecification.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Commands/BookStoreSpecification.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Store/Bookstore.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Store/Customer/AccessBank.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Store/Customer/Account.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Store/Customer/Bank.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Store/Customer/Cart.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Commands/User/Cart.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Store/Customer/Customer.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Store/Customer/Membership.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Store/Customer/Order.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Store/Customer/Party.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Store/Customer/Person.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Commands/User/Person.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Store/Manager/CheckOut.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Store/Manager/Log.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Store/Manager/Refund.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Store/Register.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/User/Admin/Admin.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Commands/User/Admin/Admin.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/User/Command.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -46,6 +78,7 @@
 }</component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
+      <recent name="Commands.User" />
       <recent name="Store.Customer" />
       <recent name="Store.Manager" />
     </key>
@@ -90,7 +123,14 @@
       <option name="project" value="LOCAL" />
       <updated>1698192659438</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Cart.java">
+      <created>1698233614472</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1698233614472</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -134,6 +174,7 @@
     <MESSAGE value="Bookstore.java" />
     <MESSAGE value="Comparable.java" />
     <MESSAGE value="BookStoreSpecification.java" />
-    <option name="LAST_COMMIT_MESSAGE" value="BookStoreSpecification.java" />
+    <MESSAGE value="Cart.java" />
+    <option name="LAST_COMMIT_MESSAGE" value="Cart.java" />
   </component>
 </project>
